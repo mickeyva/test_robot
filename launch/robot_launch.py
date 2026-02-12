@@ -10,7 +10,7 @@ import os
 
 def generate_launch_description():
     # Define paths
-    test_robot_dir = '/home/andrey/ros2_ws/src/test_robot'
+    test_robot_dir = '/home/mickey/ros2_ws/src/test_robot'
     nav2_launch_dir = get_package_share_directory('nav2_bringup')
     realsense_dir = get_package_share_directory('realsense2_camera')
     nav2_bt_dir = get_package_share_directory('nav2_bt_navigator')
